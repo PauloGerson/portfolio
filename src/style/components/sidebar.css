@@ -42,10 +42,18 @@
 }
  
 
-@media ( width < 1370px )
+@media (width > 600px) and (width < 1370px )
 {
   .title{
     margin-top: 16rem;
+  }
+  
+}
+
+@media (width < 480px){
+  #sidebar{
+    margin-left: 1rem;
+   
   }
 }
 

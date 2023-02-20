@@ -63,8 +63,19 @@
 
 #email-icon{
   color: #6ab5b9;
+  
 }
 
 #pin-icon{
   color: #c17ceb;
+}
+
+@media (width < 480px){
+  #information{
+    width: 90%;
+  }
+
+  #email-icon{
+    width: 70px;
+  }
 }

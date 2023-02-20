@@ -17,6 +17,12 @@
   -webkit-text-fill-color: transparent;
 } 
 
+@media (width < 480px){
+  #portfolio h1{
+    font-size: 3rem;
+  }
+}
+
 
 
 

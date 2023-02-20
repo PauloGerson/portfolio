@@ -1,0 +1,45 @@
+@import "../variables.css";
+
+#social-networks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-btn{
+  padding: .6rem;
+  background-color: var(--bg-color-secondary);
+  border-radius: var(--card-border-radius);
+  color: white;
+  width: 3rem;
+  font-size: 1.3rem;
+}
+
+#linkedin{
+  color: #0072B1;
+}
+
+#github{
+  color: #111;
+}
+
+#linkedin:hover{
+  background: var(--gradient);
+
+}
+#linkedin > svg:hover{
+  color: white;
+}
+
+#github:hover{
+  background: var(--gradient);
+}
+
+#github > svg:hover{
+  color: white;
+}
+
+
+

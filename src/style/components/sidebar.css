@@ -1,0 +1,51 @@
+@import "../variables.css";
+
+#sidebar
+{
+  background-color: var(--bg-color) ;
+  flex: 1 1 0  ;
+  border-radius: var(--container-border-radius);
+  display: flex ;
+  align-items: center ;
+  flex-direction: column ;
+  text-align: center;
+  position: relative ;
+  padding: 3rem  0;
+}
+
+#sidebar img{
+  width: 70%;
+  max-width: 70%;
+  border-radius: var(--container-border-radius);
+  position: absolute;  
+  top: -3rem;
+}
+  
+.title
+{
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: var(--text-color-secondary);
+  background-color: var(--bg-color-secondary);
+  margin-top: 26rem;
+  padding: .8rem 1.2rem;
+}
+
+#btn{
+  padding: 1rem 1.2rem;
+  color: var(--text-color); 
+  background: var(--gradient); 
+  text-decoration: none;
+  border-radius: 7rem;
+}
+ 
+
+@media ( width < 1370px )
+{
+  .title{
+    margin-top: 16rem;
+  }
+}
+

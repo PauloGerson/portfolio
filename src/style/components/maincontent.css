@@ -1,0 +1,50 @@
+@import "../variables.css";
+
+#main-content {
+  background-color: var(--bg-color);
+  flex: 2 1 0 ;
+  border-radius: var(--container-border-radius);
+  padding: 3rem;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+}
+
+ .about-container h2{
+  margin-top: 2rem;
+  color: var(--text-color);
+  font-size: 2.2rem;
+  margin-bottom: 1.3rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.about-container h2::after{
+  content: '';
+  width: 30%;
+  height: 3px;
+  background: var(--gradient)
+} 
+
+.about-container p{
+  color: var(--text-color-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+  text-align: justify;
+  width: 80%;
+}
+
+.about-container  #btn{
+  padding: 1rem 1.2rem;
+  color: var(--text-color); 
+  background: var(--gradient); 
+  text-decoration: none;
+  border-radius: 7rem;
+  width: 8rem;
+}

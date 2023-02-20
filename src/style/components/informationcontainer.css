@@ -1,0 +1,70 @@
+@import "../variables.css";
+
+#information{
+  /* mixins */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  ----------  */
+  flex-direction: column;
+  background-color: var(--bg-color-secondary);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 80%;
+  border-radius: var(--card-border-radius);
+}
+
+.info-card {
+   /* mixins */
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   /*  ----------  */
+   gap: 1rem;
+   padding: .8rem;
+   margin-bottom: .8rem;
+   border-bottom: 1px solid #444;
+   width: 100%; 
+}
+
+.info-card h3{
+  color: var(--bg-color-secondary);
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.info-card p{
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.info-card > svg {
+  background-color: var(--bg-color);
+  padding: .4rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--card-border-radius);
+  margin-top: 1rem;
+}
+
+.info-card a{
+  text-decoration: none;
+  color: white;
+  transition: all .3s;
+}
+.info-card a:hover{
+  border-bottom: 1px white solid;
+}
+
+#phone-icon{
+  color: #e93b81;
+}
+
+#email-icon{
+  color: #6ab5b9;
+}
+
+#pin-icon{
+  color: #c17ceb;
+}

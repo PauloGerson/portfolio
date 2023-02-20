@@ -1,0 +1,90 @@
+@import "../variables.css";
+
+.technologies-container{
+  margin-bottom: 1rem;
+}
+.technology-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.technologies-container h2{
+  color: var(--text-color);
+  font-size: 2.2rem;
+  margin: 1.3rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.technologies-container h3{
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 1.3rem 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.technologies-container h2::after{
+  content: '';
+  width: 30%;
+  height: 3px;
+  background: var(--gradient)
+} 
+
+.technology-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #333;
+  width: 45%;
+  border-radius: var(--card-border-radius);
+  
+}
+
+.technology-card h3{
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.technology-card p{
+  color: var(--text-color);
+ 
+}
+.technology-card svg {
+  font-size: 6rem;
+}
+
+ #html > svg{
+  color: #e44d26;
+}
+#html > svg{
+  color: #e44d26;
+}
+
+#css > svg{
+  color: #1572b6;
+}
+#js > svg{
+  color: #f0db4f;
+}
+#node > svg{
+  color: #83cd29;
+}
+
+#mysql > svg{
+  color: #00618a;
+}
+
+#react > svg{
+  color: #61dafb;
+}

@@ -17,7 +17,7 @@
   -webkit-text-fill-color: transparent;
 } 
 
-@media (width < 480px){
+@media (width > 320px) and (width < 854px){
   #portfolio h1{
     font-size: 3rem;
   }

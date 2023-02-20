@@ -50,9 +50,12 @@
   
 }
 
-@media (width > 475px) and (width < 854px){
+@media (width > 320px) and (width < 854px){
+  #sidebar{
+    width: 100%;
+  }
   .title{
-    margin-top: 18rem;
+    margin-top: 16rem;
   }
   
 }

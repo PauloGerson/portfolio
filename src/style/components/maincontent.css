@@ -48,12 +48,12 @@
   border-radius: 7rem;
   width: 8rem;
 }
-@media (width > 475px) and (width < 854px){
+@media (width > 320px) and (width < 854px){
   #main-content{
     width: 100%;
   }
   .about-container p{
-    width: 18rem;
+    width: auto;
     text-align: justify;
   }
 }

@@ -70,12 +70,12 @@
   color: #c17ceb;
 }
 
-@media (width < 480px){
+@media (width > 320px) and (width < 854px){
   #information{
     width: 90%;
   }
 
   #email-icon{
-    width: 30px;
+    width: 60px;
   }
 }

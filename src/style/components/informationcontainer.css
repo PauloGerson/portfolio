@@ -70,7 +70,7 @@
   color: #c17ceb;
 }
 
-@media (width > 320px) and (width < 854px){
+@media (min-width: 321px) and (max-width: 853px){
   #information{
     width: 90%;
   }

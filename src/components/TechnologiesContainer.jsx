@@ -4,8 +4,10 @@
   DiJsBadge,
   DiReact,
   DiNodejsSmall,
-  DiMysql,
+  DiPostgresql,
 } from 'react-icons/di' 
+
+import logo from '../img/tailwindcss.svg'
 
 
 import "../style/components/technologiescontainer.css"
@@ -18,8 +20,9 @@ import "../style/components/technologiescontainer.css"
 
 const techLeraning =[
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
-  { id: "mysql", name: "MySQL", icon: <DiMysql /> },
+  { id: "mysql", name: "MySQL", icon: <DiPostgresql /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "tailwind", name: "tailwind", icon: <img className='tailwind' src={logo} alt="logo tailwind"/>  },
 ]
 
 const TechnologiesContainer = () => {

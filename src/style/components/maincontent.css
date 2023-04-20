@@ -48,7 +48,7 @@
   border-radius: 7rem;
   width: 8rem;
 }
-@media (width > 320px) and (width < 854px){
+@media (min-width: 321px) and (max-width: 853px){
   #main-content{
     width: 100%;
   }
